@@ -15,8 +15,6 @@ pipeline {
         sleep 1000
       }
     }
-    }
-
     stage('run') {
       steps {
         sh 'mvn verify'
@@ -24,3 +22,4 @@ pipeline {
     }
 
   }
+}
