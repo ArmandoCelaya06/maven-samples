@@ -9,6 +9,11 @@ pipeline {
       steps {
         git(url: 'https://github.com/SE333DePaul/maven-samples.git', branch: 'master')
       }
+    stage('sleep'){
+      steps{
+        sleep 1000
+      }
+    }
     }
 
     stage('run') {
