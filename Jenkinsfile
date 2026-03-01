@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools {
-    maven 'DHT_MVN'
+    maven 'M3'
     jdk 'DHT_SENSE'
   }
   stages {
